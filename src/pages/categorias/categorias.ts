@@ -11,7 +11,7 @@ import {API_CONFIG} from "../../config/api.config";
 })
 export class CategoriasPage {
 
-  buckeyUrl: string = API_CONFIG.buckeyBaseUrl;
+  buckeyUrl: string = API_CONFIG.bucketBaseUrl;
   itens: CategoriaDTO[];
 
   constructor(public navCtrl: NavController, public navParams: NavParams, public categoriaService: CategoriaService) {
